@@ -22,7 +22,7 @@ public class InterviewMappingCVS implements InterviewDao {
             "answers[2]",
             "rightNumber"
     };
-    private final CellProcessor[] processors = new CellProcessor[]{
+    private static final CellProcessor[] processors = new CellProcessor[]{
             new Optional(new ParseInt()),
             new Optional(),
             new Optional(),

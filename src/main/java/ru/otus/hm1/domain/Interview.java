@@ -40,7 +40,7 @@ public class Interview {
         return answers;
     }
 
-    public void setAnswers (List<String> answers) {
+    public void setAnswers(List<String> answers) {
         this.answers = answers;
     }
 
