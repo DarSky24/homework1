@@ -32,6 +32,6 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Студент " + name + " " + surname + "," + "Вы дали " + result + " верных ответов из 5";
+        return "Студент " + name + " " + surname + "," + " Вы дали " + result + " верных ответов из 5";
     }
 }

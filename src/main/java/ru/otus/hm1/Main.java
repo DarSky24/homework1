@@ -37,7 +37,6 @@ public class Main {
             System.out.println(student);
         } catch (Exception e) {
             System.out.println("Проблема с получением списка вопросов!");
-            e.printStackTrace();
         }
     }
 }
